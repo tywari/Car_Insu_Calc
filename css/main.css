@@ -1,0 +1,82 @@
+body{
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.fixed-header, .fixed-footer{
+    width: 100%;
+    position: fixed;
+    background: #333;
+    padding: 10px 0;
+    color: #fff;
+}
+.fixed-header{
+    top: 0;
+}
+.fixed-footer{
+    bottom: 0;
+}
+.container{
+    width: 80%;
+    margin: 0 auto; /* Center the DIV horizontally */
+}
+nav a{
+    color: #fff;
+    text-decoration: none;
+    padding: 7px 25px;
+    display: inline-block;
+}
+
+input[type= "text"]
+{
+    width: 300px;
+    height: 30px;
+    margin: 5px 0;
+}
+input[type= "email"]
+{
+    width: 300px;
+    height: 30px;
+    margin: 5px 0;
+}
+
+select
+{
+    width: 300px;
+    height: 30px;
+    margin: 5px 0;
+}
+
+button
+{
+    width: 150px;
+    height: 35px;
+    font-size: 15px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+caption{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 15px 0;
+    text-transform: uppercase;
+}
+
+.home_page_p a {
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-transform: uppercase;
+}
+
+.home_page_p {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 20%;
+}
